@@ -1,10 +1,10 @@
 export type tableData = {
-  data: string;
-  title: string;
-  amount: number;
-  distance: number;
-};
+  date: string
+  title: string
+  amount: number | string
+  distance: number | string
+}
 
 export interface TableProps {
-  data: tableData;
+  data: tableData[]
 }
