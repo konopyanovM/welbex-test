@@ -7,4 +7,5 @@ export type tableData = {
 
 export interface TableProps {
   data: tableData[]
+  headingData?: tableData
 }

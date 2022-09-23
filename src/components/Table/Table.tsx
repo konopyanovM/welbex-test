@@ -4,16 +4,15 @@ import TableRow from '../TableRow'
 import './Table.css'
 import { TableProps } from './types'
 
-const Table: FC<TableProps> = ({ data }) => {
-  const headingRow = {
-    date: TableHeadingsEnum.DATA,
-    title: TableHeadingsEnum.TITLE,
-    amount: TableHeadingsEnum.AMOUNT,
-    distance: TableHeadingsEnum.DISTANCE,
-  }
+const Table: FC<TableProps> = ({ data, headingData }) => {
+  const Rows = data.map((item) => {
+    return <TableRow item={item} />
+  })
+
   return (
-    <table>
-      <TableRow item={headingRow} isHeading={true} />
+    <table className='table'>
+      {headingData && <TableRow item={headingData} isHeading={true} />}
+      {Rows}
     </table>
   )
 }

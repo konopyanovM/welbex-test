@@ -1,0 +1,25 @@
+:root {
+  --color-table-border: rgb(72, 72, 72);
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+body,
+#root,
+.app {
+  width: inherit;
+  height: inherit;
+}
+
+.app__wrapper {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
