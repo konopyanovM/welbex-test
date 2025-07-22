@@ -1,0 +1,2 @@
+:root{--color-table-border:#484848}html{height:100%;width:100%}body{margin:0}#root,.app,body{height:inherit;width:inherit}.app__wrapper{display:flex;justify-content:center;padding-top:100px}.cell{border:1px solid var(--color-table-border);height:2rem;min-width:6rem;padding:.5rem}.table{border:1px solid var(--color-table-border);border-collapse:collapse;border-spacing:0}
+/*# sourceMappingURL=main.902889c4.css.map*/

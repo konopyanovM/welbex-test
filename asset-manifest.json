@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/welbex-test/static/css/main.902889c4.css",
+    "main.js": "/welbex-test/static/js/main.d4e16d0c.js",
+    "index.html": "/welbex-test/index.html",
+    "main.902889c4.css.map": "/welbex-test/static/css/main.902889c4.css.map",
+    "main.d4e16d0c.js.map": "/welbex-test/static/js/main.d4e16d0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.902889c4.css",
+    "static/js/main.d4e16d0c.js"
+  ]
+}
